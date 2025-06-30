@@ -1,0 +1,11 @@
+streamlit>=1.31.0
+langchain>=0.1.16
+langchain-community>=0.0.32
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+unstructured>=0.12.6
+beautifulsoup4>=4.12.2
+requests>=2.31.0
+tqdm>=4.66.2
+urllib3<2  # compatibility with some loaders
+python-dotenv>=1.0.1  # if you're using .env for secrets
